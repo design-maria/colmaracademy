@@ -1,0 +1,13 @@
+/* Universal */
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    font-size: 16px;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  

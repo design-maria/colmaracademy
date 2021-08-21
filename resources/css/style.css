@@ -12,7 +12,6 @@ body {
 }
   
 /* Desktop and mobile */
-
 header {
     height: 4rem;
     width: 100%;
@@ -27,4 +26,74 @@ header {
 main {
     position: relative;
     top: 4rem;
+}
+
+/* Buttons and others */
+button {
+    height: 4rem;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    flex-shrink: 1;
+    border-radius: 2px;
+}
+  
+.info-pic-light {
+    background-color: white;
+}
+  
+.info-pic-dark {
+    background-color: #d8d8d8;
+}
+
+/* Text styles */
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+  
+h2 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+  
+h3 {
+    font-size: 1rem;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+  
+p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+  
+.bold {
+    font-weight: bold;
+}
+  
+.light {
+    font-weight: lighter;
+}
+  
+.caption {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+  
+a {
+    text-decoration: none;
+    color: #303030;
+    line-height: 1rem;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1rem;
 }

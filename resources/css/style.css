@@ -39,11 +39,11 @@ button {
     border-radius: 2px;
 }
   
-.info-pic-light {
+.light {
     background-color: white;
 }
   
-.info-pic-dark {
+.dark {
     background-color: #d8d8d8;
 }
 
@@ -96,4 +96,53 @@ ul {
     flex-direction: row;
     align-items: center;
     line-height: 1rem;
+}
+
+/* Sections */
+
+/* Banner section */
+.banner {
+    background-color: #d8d8d8;
+    width: 100%;
+    display: flex;
+}
+  
+/* Information section */
+.information {
+    display: flex;
+}
+  
+.smaller-pic {
+    width: 100%;
+}
+  
+.information .info-right {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+  
+.information .info-right .smaller-pic .info-text .banner-text a {
+    color: #28BFB2;
+}
+  
+/* Courses section */
+.courses h1 {
+    text-align: center;
+}
+  
+.courses {
+    display: flex;
+    flex-direction: column;
+}
+  
+/* Thesis section*/
+.thesis-exhibit {
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.thesis-exhibit h1 {
+    text-align: center;
 }

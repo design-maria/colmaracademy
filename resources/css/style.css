@@ -9,5 +9,22 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-  }
+}
   
+/* Desktop and mobile */
+
+header {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+}
+  
+main {
+    position: relative;
+    top: 4rem;
+}

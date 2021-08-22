@@ -25,7 +25,6 @@ header {
 }
   
 main {
-    margin-top: 64px;
     position: relative;
     top: 4rem;
 }
@@ -129,7 +128,7 @@ ul {
   
 .information .smaller {
     padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
   
 .information .smaller .smaller-pic .info-text .banner-text a {
@@ -253,7 +252,8 @@ ul {
     }
   
     .banner .info-pic img {
-      width: 100%;
+        margin-top: 64px;
+        width: 100%;
     }
   
     .banner .banner-text {
@@ -414,8 +414,9 @@ ul {
         padding-bottom: 2rem;
     }
   
-    .banner .banner-pic .info-pic {
-        width: 100%;
+    .banner-pic {
+        padding: 2rem 1.5rem;
+        width: 60%;
     }
   
     .banner .banner-pic .info-pic img {
@@ -427,8 +428,14 @@ ul {
     }
   
     /* Information section */
-    .information .info-left {
+    .information  {
+        margin-top: 4rem;
         display: none;
+    }
+
+    .information-pic {
+        padding: 2rem 1.5rem;
+        width: 60%;
     }
   
     .information .smaller {
@@ -474,7 +481,7 @@ ul {
       display: none;
     }
   
-    /* Thesis */
+    /* Thesis ssection */
     .thesis-exhibit .smaller {
       display: none;
     }
